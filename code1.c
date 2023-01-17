@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("12345");
+  int i = 0;
+  for (i = 0; i <= 5; i++) {
+    printf("Number is %d\n", i);
+  }
   return 0;
 }

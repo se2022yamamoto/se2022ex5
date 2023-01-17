@@ -5,5 +5,6 @@ int main(void) {
   for (i = 0; i <= 5; i++) {
     printf("Number is %d\n", i);
   }
+  printf("fin");
   return 0;
 }
